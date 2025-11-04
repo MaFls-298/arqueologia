@@ -1,0 +1,13 @@
+public class EtiquetaSujeto extends Etiqueta {
+    private String nombre;
+
+    public EtiquetaSujeto(int id, String titulo, String descripcion, String color, String categoria) {
+        super(id, titulo, color, descripcion);
+        this.nombre = nombre;
+    }
+
+    @Override
+    public void mostrarDetalles() {
+    
+    }
+}
