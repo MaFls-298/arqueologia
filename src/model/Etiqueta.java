@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Etiqueta {
     private int id;
     public String titulo;

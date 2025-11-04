@@ -1,3 +1,5 @@
+package model;
+
 public class EtiquetaCategoria extends Etiqueta {
     
     private String categoria;

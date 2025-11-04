@@ -1,3 +1,5 @@
+package model;
+
 public class EtiquetaTema extends Etiqueta {
     private String tema;
 

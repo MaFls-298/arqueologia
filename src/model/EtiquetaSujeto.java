@@ -1,3 +1,5 @@
+package model;
+
 public class EtiquetaSujeto extends Etiqueta {
     private String nombre;
 
