@@ -1,6 +1,6 @@
 package controller;
-import model.*;
 import java.util.ArrayList;
+import model.*;
 
 public class RelacionController {
     private ArrayList<Relacion> relaciones;
@@ -37,7 +37,7 @@ public class RelacionController {
     public ArrayList<Relacion> getRelacionesPorEtiqueta(Etiqueta e) {
         ArrayList<Relacion> result = new ArrayList<>();
         for (Relacion r : relaciones) {
-            if (r.getElementoOrigen().equals(e) || r.getElementoDestino().equals(e)) {
+            if (r.getOrigen().equals(e) || r.getDestino().equals(e)) {
                 result.add(r);
             }
         }

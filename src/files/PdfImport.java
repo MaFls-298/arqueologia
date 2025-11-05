@@ -1,4 +1,4 @@
-package fileAdmin;
+package files;
 import java.time.LocalDate;
 
 import model.Documento;
@@ -12,8 +12,8 @@ public class PdfImport implements FileImport {
 
     @Override
     public Documento importar(String rutaArchivo) {
-    try {
-            return new Documento(id, titulo, autor, contenido, rutaFile, LocalDate.now());
+        try {
+            return new Documento();
         } catch (Exception e) {
             return null;
         }

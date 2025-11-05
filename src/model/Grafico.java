@@ -18,7 +18,7 @@ public abstract class Grafico {
 
     }
 
-    public int getIfGrafico(){
+    public int getIdGrafico(){
         return idGrafico;
     }
 

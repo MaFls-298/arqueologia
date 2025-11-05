@@ -1,4 +1,4 @@
-package fileAdmin;
+package files;
 import java.time.LocalDate;
 
 import model.Documento;
@@ -13,7 +13,7 @@ public class txtImport implements FileImport{
     @Override
     public Documento importar(String filePath){
         try {
-            return new Documento(id, titulo, autor, contenido, rutaFile, LocalDate.now());
+            return new Documento();
         } catch (Exception e) {
             return null;
         }

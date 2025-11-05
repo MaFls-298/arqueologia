@@ -1,4 +1,4 @@
-package fileAdmin;
+package files;
 import model.Documento;
 
 public interface FileImport {

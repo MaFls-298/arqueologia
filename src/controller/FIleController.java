@@ -1,7 +1,11 @@
-package fileAdmin;
+package controller;
+
 import model.*;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
+
+import files.*;
 
 public class FIleController {
     private ArrayList<Documento> documentos;
